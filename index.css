@@ -91,14 +91,6 @@ body {
     height: 50px;
 }
 
-.center-content{
-    width: 100vw;
-    height: 600px;
-    background: #ffe3ea;
-    position: absolute;
-    left: 130px;
-}
-
 .center-text1{
     font-size: 90px;
     margin-bottom: 20px;
@@ -121,6 +113,14 @@ body {
 .center-content-text{
     margin-left: 200px;
     margin-top: 150px;
-    z-index: ;
+    z-index: 2;
+    position: absolute;
+    bottom: 300px;
+    left: 50px;
 }
 
+.center-image{
+    margin-left: 67px;
+    position: absolute;
+    left: 80px;
+}
